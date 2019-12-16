@@ -1,0 +1,141 @@
+@import	url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/snow.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+	background-image: url(../images/fond5.jpg);
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color: white;
+}
+
+#menu ul
+{
+margin: 10px;
+padding: 0;
+line-height: 50px;
+
+}
+#menu li
+{
+list-style-type: none;
+float: left;
+position: relative;
+background-color: #151515;
+border-radius: 40px;
+
+}
+
+#menu ul li a
+{
+color: #00FF00;
+text-decoration: none;
+width: 220px;
+height: 60px;
+display: block;
+text-align: center;
+border:1px solid #585858;
+text-shadow: 1px 1px 1px green;
+border-radius: 40px;
+}
+
+#menu ul ul
+{
+position: absolute;
+top: 30px;
+visibility: hidden;
+
+}
+#menu ul li:hover ul
+{
+visibility: visible;
+}
+
+#menu li:hover
+{
+background-color: white;
+}
+#menu ul li ul a:hover
+{
+color: #fff;
+background-color: black;
+
+}
+
+#facebook {
+	color: #0040FF;
+}
+#instagram {
+	color: #FF00FF;
+}
+
+}
+#youtube {
+	color: #FF0000;
+}
+#facebook:hover {
+	color: black;
+}
+#instagram:hover {
+	color: black;
+
+}
+#youtube:hover {
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+#facebook {
+	color: #0040FF;
+}
+#instagram {
+	color: #FF00FF;
+}
+#linkedin {
+	color: #2ECCFA;
+}
+#youtube {
+	color: #FF0000;
+}
+#facebook:hover {
+	color: black;
+}
+#instagram:hover {
+	color: black;
+}
+#linkedin:hover {
+	color: black;
+}
+#youtube:hover {
+	color: black;
+}
+
